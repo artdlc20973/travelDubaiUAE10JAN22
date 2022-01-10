@@ -1,0 +1,95 @@
+@import url('fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: url('https://images.unsplash.com/photo-1632346617625-654aa6d0df8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1635&q=80')no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin: 1em;
+  color: #a2daff;
+  font-size: 1.3em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 1.2em;
+  color: #a2daff;
+  padding-right: 1em;
+}
+
+.nav li a:hover  {
+  color: #a150fd;
+}
+
+header {
+  color: #a150fd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 200px auto;
+}
+
+h1 {
+  font-weight: lighter;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+}
+
+p {
+  line-height: 1.6;
+  letter-spacing: 2px;
+  margin-bottom: 1.9em;
+  color: #a2daff;
+  padding: 0 1.5em;
+}
+
+button {
+  background: #a150fd57;
+  color: #fff;
+  border: none;
+  padding: 12px 45px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 3px;
+  border-radius: 25px;
+  margin-top: 1.3em;
+  transition: all .5s ease-in;
+}
+
+button:hover {
+  background: #a2daff67;
+  color: #fff;
+  transform: translateY(-10px);
+}
